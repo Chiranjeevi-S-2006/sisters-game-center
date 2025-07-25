@@ -1,0 +1,65 @@
+body {
+  font-family: 'Comic Sans MS', cursive;
+  background: url('img.jpg') no-repeat center fixed;
+  background-size:cover;
+  text-align: center;
+  padding: 20px;
+}
+
+.title-3d {
+  font-size: 80px;
+  color: #ff4081;
+  text-shadow: 3px 3px 0 #ff80ab, 6px 6px 0 #f50057;
+  transform: rotateX(20deg) rotateY(20deg);
+}
+
+.game-section {
+  margin-top: 30px;
+}
+
+button {
+  background-color: #4fc3f7;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.memory-game {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.card {
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  line-height: 60px;
+  background: #ffe0b2;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+.animal-name-game {
+  background-color: #e8f5e9;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+#scrambled-word {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}

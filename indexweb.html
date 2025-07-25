@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RS Kids Fun Zone</title>
+  <link rel="stylesheet" href="indexweb.css">
+</head>
+<body style="background-image: url('img.jpg');">
+  <header>
+    <h1 class="title-3d">Ridhu & Shravyu</h1>
+    <p>Welcome to your brain-boosting playground! 🧩</p>
+  </header>
+
+  <section class="game-section">
+    <h2>🧠 Puzzle Game</h2>
+    <button onclick="playPuzzle()">Solve a Puzzle</button>
+    <div id="puzzle-output"></div>
+    
+    <h2>🃏 Memory Matching Game</h2>
+    <div class="memory-game">
+      <!-- Add cards dynamically or statically here -->
+      <div class="card">🍓</div>
+      <div class="card">🍓</div>
+      <div class="card">🚗</div>
+      <div class="card">🚗</div>
+    </div>
+  </section>
+
+
+  <section class="animal-name-game">
+  <h2>Can you find the animal? 🐾</h2>
+  <p id="scrambled-word">Loading...</p>
+  <input type="text" id="user-answer" placeholder="Type the animal name here">
+  <button onclick="checkAnimal()">Submit</button>
+  <p id="result"></p>
+</section>
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
